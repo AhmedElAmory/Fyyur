@@ -1,6 +1,9 @@
 This is an app that I made as a part of a Udacity FullStack NanoDegree
 
-Author: Ahmed ElAmory
+Author:
+Ahmed ElAmory
+
+-----
 -----
 
 ## Introduction
