@@ -128,8 +128,19 @@ Install [Bootstrap 3](https://getbootstrap.com/docs/3.3/getting-started/) for th
 npm init -y
 npm install bootstrap@3
 ```
+5. **Update the Database URI and update the database**
 
-5. **Run the development server:**
+create a postgres database and edit the database URI in config.py
+
+then run 
+
+```
+flask db upgrade
+```
+
+to update the database schema
+
+6. **Run the development server:**
 ```
 export FLASK_APP=myapp
 export FLASK_ENV=development # enables debug mode
@@ -143,5 +154,5 @@ set FLASK_ENV=development # enables debug mode
 python3 app.py
 ```
 
-6. **Verify on the Browser**<br>
+7. **Verify on the Browser**<br>
 Navigate to project homepage [http://127.0.0.1:5000/](http://127.0.0.1:5000/) or [http://localhost:5000](http://localhost:5000) 
